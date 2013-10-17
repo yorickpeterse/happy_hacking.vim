@@ -13,7 +13,7 @@ it as following (e.g. in your .vimrc);
 
 If you're using Pathogen you can add this theme as following:
 
-    git submodule add git@github.com:YorickPeterse/happy-hacking.vim \
+    git submodule add git@github.com:YorickPeterse/happy_hacking.vim \
         .vim/bundle/happy-hacking
 
 Then load it like you'd normally would.

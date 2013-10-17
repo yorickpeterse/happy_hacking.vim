@@ -14,7 +14,7 @@
 "
 " Author:  Yorick Peterse
 " License: MIT
-" Website: https://github.com/yorickpeterse/happy-hacking.vim
+" Website: https://github.com/yorickpeterse/happy_hacking.vim
 "
 
 set background=dark
