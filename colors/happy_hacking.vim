@@ -167,6 +167,8 @@ hi! link cssTagName    Normal
 hi! link dDebug        Notice
 hi! link dOperator     Operator
 hi! link dStorageClass Keyword
+hi! link dAnnotation   Directory
+hi! link dAttribute    dAnnotation
 
 " Diffs
 hi! link diffFile    WarningMsg
