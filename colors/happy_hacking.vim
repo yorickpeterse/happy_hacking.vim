@@ -162,6 +162,7 @@ hi! link cssClassName  Directory
 hi! link cssMedia      Notice
 hi! link cssColor      Number
 hi! link cssTagName    Normal
+hi! link cssImportant  Notice
 
 " D
 hi! link dDebug        Notice
