@@ -205,6 +205,9 @@ hi! link javaScriptMember     Normal
 hi! link javaScriptIdentifier Identifier
 hi! link javaScriptFunction   Keyword
 
+" Less
+hi! link lessClass cssClassName
+
 " Make
 hi! link makeTarget Function
 
