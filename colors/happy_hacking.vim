@@ -154,7 +154,8 @@ hi! link MoreMsg      Normal
 " definitions are sorted in alphabetical order.
 
 " Coffeescript
-hi! link coffeeRegex Regexp
+hi! link coffeeRegex        Regexp
+hi! link coffeeSpecialIdent Directory
 
 " CSS
 hi! link cssIdentifier Title
