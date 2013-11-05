@@ -203,8 +203,9 @@ hi! link htmlSpecialTagName htmlTag
 " Javascript
 hi! link javaScriptBraces     Normal
 hi! link javaScriptMember     Normal
-hi! link javaScriptIdentifier Identifier
+hi! link javaScriptIdentifier Keyword
 hi! link javaScriptFunction   Keyword
+hi! link JavaScriptNumber     Number
 
 " Less
 hi! link lessClass cssClassName
