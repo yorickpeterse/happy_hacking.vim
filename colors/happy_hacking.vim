@@ -154,7 +154,8 @@ hi! link MoreMsg      Normal
 " definitions are sorted in alphabetical order.
 
 " Coffeescript
-hi! link coffeeRegex Regexp
+hi! link coffeeRegex        Regexp
+hi! link coffeeSpecialIdent Directory
 
 " CSS
 hi! link cssIdentifier Title
@@ -162,6 +163,7 @@ hi! link cssClassName  Directory
 hi! link cssMedia      Notice
 hi! link cssColor      Number
 hi! link cssTagName    Normal
+hi! link cssImportant  Notice
 
 " D
 hi! link dDebug        Notice
@@ -201,8 +203,12 @@ hi! link htmlSpecialTagName htmlTag
 " Javascript
 hi! link javaScriptBraces     Normal
 hi! link javaScriptMember     Normal
-hi! link javaScriptIdentifier Identifier
+hi! link javaScriptIdentifier Keyword
 hi! link javaScriptFunction   Keyword
+hi! link JavaScriptNumber     Number
+
+" Less
+hi! link lessClass cssClassName
 
 " Make
 hi! link makeTarget Function
