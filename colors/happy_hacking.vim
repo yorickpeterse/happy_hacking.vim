@@ -249,7 +249,8 @@ hi! link rubyRegexpCharClass  Normal
 hi! link rubyRegexpQuantifier Normal
 
 " Rust
-hi! link rustFuncCall Identifier
+hi! link rustFuncCall        Identifier
+hi! link rustCommentBlockDoc Comment
 
 " SASS
 hi! link sassClass   cssClassName
