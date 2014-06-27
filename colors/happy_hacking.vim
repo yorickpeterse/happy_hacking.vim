@@ -207,6 +207,14 @@ hi! link javaScriptIdentifier Keyword
 hi! link javaScriptFunction   Keyword
 hi! link JavaScriptNumber     Number
 
+" Java
+hi! link javaCommentTitle javaComment
+hi! link javaDocTags      Todo
+hi! link javaDocParam     Todo
+hi! link javaStorageClass Keyword
+hi! link javaAnnotation   Directory
+hi! link javaExternal     Keyword
+
 " Less
 hi! link lessClass cssClassName
 
