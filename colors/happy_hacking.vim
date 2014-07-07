@@ -199,6 +199,8 @@ hi! link hamlDocType Comment
 " HTML
 hi! link htmlLink           Directory
 hi! link htmlSpecialTagName htmlTag
+hi! link htmlTagName        htmlTag
+hi! link htmlScriptTag      htmlTag
 
 " Javascript
 hi! link javaScriptBraces     Normal
