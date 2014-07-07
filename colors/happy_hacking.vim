@@ -273,6 +273,9 @@ hi! link shFunctionKey Keyword
 hi! link shTestOpr     Operator
 hi! link bashStatement Normal
 
+" SQL
+hi! link sqlKeyword Keyword
+
 " Vimscript
 hi! link vimGroup        Constant
 hi! link vimHiGroup      Constant
