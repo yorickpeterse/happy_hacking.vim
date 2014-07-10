@@ -224,8 +224,10 @@ hi! link lessClass cssClassName
 hi! link makeTarget Function
 
 " Markdown
-hi! link markdownCodeBlock Todo
-hi! link markdownCode      markdownCodeBlock
+hi! link markdownCodeBlock         Todo
+hi! link markdownCode              markdownCodeBlock
+hi! link markdownListMarker        Keyword
+hi! link markdownOrderedListMarker Keyword
 
 " NERDTree
 hi! link NERDTreeRO   Notice
