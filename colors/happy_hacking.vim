@@ -233,10 +233,12 @@ hi! link markdownListMarker        Keyword
 hi! link markdownOrderedListMarker Keyword
 
 " NERDTree
-hi! link NERDTreeRO   Notice
-hi! link NERDTreeCWD  Title
-hi! link NERDTreeLink Number
-hi! link NERDTreeDir  Directory
+hi! link NERDTreeRO       Notice
+hi! link NERDTreeCWD      Title
+hi! link NERDTreeLink     Number
+hi! link NERDTreeDir      Directory
+hi! link NERDTreeOpenable NERDTreeDir
+hi! link NERDTreeClosable NERDTreeDir
 
 " Perl
 hi! link podCommand           Comment
