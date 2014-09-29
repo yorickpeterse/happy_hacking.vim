@@ -217,6 +217,9 @@ hi! link javaStorageClass Keyword
 hi! link javaAnnotation   Directory
 hi! link javaExternal     Keyword
 
+" JSON
+hi! link jsonKeyword String
+
 " Less
 hi! link lessClass cssClassName
 
