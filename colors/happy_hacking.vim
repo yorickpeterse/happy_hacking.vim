@@ -115,7 +115,7 @@ call s:Color("StatusLineNC", s:gray4, s:gray6, s:t_gray4, s:t_gray6)
 call s:Color("VertSplit",    s:gray3, "NONE",  s:t_gray3, "NONE")
 call s:Color("ColorColumn",  "NONE",  s:gray6, "NONE",    s:t_gray6)
 
-call s:Color("Folded",     s:gray4,  s:gray6, s:t_gray4,  s:t_gray6)
+call s:Color("Folded",     s:gray4,  "NONE",  s:t_gray4,  "NONE")
 call s:Color("FoldColumn", s:gray3,  s:gray1, s:t_gray3,  s:t_gray1)
 call s:Color("ErrorMsg",   s:red2,   "NONE",  s:t_red2,   "NONE", "bold")
 call s:Color("WarningMsg", s:yellow, "NONE",  s:t_yellow, "NONE", "bold")
