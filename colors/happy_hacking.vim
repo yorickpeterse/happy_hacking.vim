@@ -51,6 +51,7 @@ let s:gray2    = "#525252"
 let s:gray3    = "#6c6c6c"
 let s:gray4    = "#7c7c7c"
 let s:gray5    = "#aaaaaa"
+let s:gray6    = "#393939"
 
 " ============================================================================
 " Terminal Colors
@@ -75,6 +76,7 @@ let s:t_gray2    = "59"
 let s:t_gray3    = "59"
 let s:t_gray4    = "102"
 let s:t_gray5    = "145"
+let s:t_gray6    = "237"
 
 " ============================================================================
 " Color Functions
@@ -107,12 +109,13 @@ call s:Color("Normal",   s:white,  s:gray1,  s:t_white,  s:t_gray1)
 call s:Color("Search",   s:black1, s:yellow, s:t_black1, s:t_yellow)
 call s:Color("Title",    s:white,  "NONE",   s:t_white,  "NONE", "bold")
 
-call s:Color("LineNr",       s:gray3,  s:gray1, s:t_gray3,  s:t_gray1)
-call s:Color("StatusLine",   s:black1, s:gray2, s:t_black1, s:t_gray2)
-call s:Color("StatusLineNC", s:gray3,  s:gray1, s:t_gray3,  s:t_gray1)
-call s:Color("VertSplit",    s:gray2,  s:gray1, s:t_gray2,  s:t_gray1)
+call s:Color("LineNr",       s:gray3, "NONE",  s:t_gray3, "NONE")
+call s:Color("StatusLine",   s:white, s:gray6, s:t_white, s:t_gray6)
+call s:Color("StatusLineNC", s:gray4, s:gray6, s:t_gray4, s:t_gray6)
+call s:Color("VertSplit",    s:gray3, "NONE",  s:t_gray3, "NONE")
+call s:Color("ColorColumn",  "NONE",  s:gray6, "NONE",    s:t_gray6)
 
-call s:Color("Folded",     s:black1, s:gray2, s:t_black1, s:t_gray2)
+call s:Color("Folded",     s:gray4,  s:gray6, s:t_gray4,  s:t_gray6)
 call s:Color("FoldColumn", s:gray3,  s:gray1, s:t_gray3,  s:t_gray1)
 call s:Color("ErrorMsg",   s:red2,   "NONE",  s:t_red2,   "NONE", "bold")
 call s:Color("WarningMsg", s:yellow, "NONE",  s:t_yellow, "NONE", "bold")
@@ -121,7 +124,7 @@ call s:Color("Question",   s:white,  "NONE",  s:t_white,  "NONE")
 call s:Color("SpecialKey",  s:white, s:gray2, s:t_white, s:t_gray2)
 call s:Color("Directory",   s:blue,  "NONE",  s:t_blue,  "NONE")
 
-call s:Color("Comment",  s:gray4,    "NONE", s:t_gray4,     "NONE")
+call s:Color("Comment",  s:gray4,    "NONE", s:t_gray4,    "NONE")
 call s:Color("Todo",     s:gray5,    "NONE", s:t_gray5,    "NONE")
 call s:Color("String",   s:green,    "NONE", s:t_green,    "NONE")
 call s:Color("Keyword",  s:red2,     "NONE", s:t_red2,     "NONE")
@@ -135,7 +138,6 @@ hi! link Constant     Normal
 hi! link Operator     Normal
 hi! link Type         Keyword
 hi! link Statement    Keyword
-hi! link ColorColumn  Cursor
 hi! link PmenuThumb   PmenuSel
 hi! link Visual       Cursor
 hi! link SignColumn   FoldColumn
