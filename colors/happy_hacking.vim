@@ -290,7 +290,7 @@ hi! link sqlKeyword Keyword
 hi! link typescriptBraces      Normal
 hi! link typescriptEndColons   Normal
 hi! link typescriptFunction    Function
-hi! link typescriptFuncKeyword Function
+hi! link typescriptFuncKeyword Keyword
 
 " Vimscript
 hi! link vimGroup        Constant
