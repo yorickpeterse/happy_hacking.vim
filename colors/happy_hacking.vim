@@ -292,6 +292,7 @@ hi! link typescriptEndColons    Normal
 hi! link typescriptFunction     Function
 hi! link typescriptFuncKeyword  Keyword
 hi! link typescriptLogicSymbols Operator
+hi! link typescriptIdentifier   Keyword
 
 " Vimscript
 hi! link vimGroup        Constant
