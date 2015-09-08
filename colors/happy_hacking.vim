@@ -286,6 +286,12 @@ hi! link bashStatement Normal
 " SQL
 hi! link sqlKeyword Keyword
 
+" TypeScript
+hi! link typescriptBraces      Normal
+hi! link typescriptEndColons   Normal
+hi! link typescriptFunction    Function
+hi! link typescriptFuncKeyword Function
+
 " Vimscript
 hi! link vimGroup        Constant
 hi! link vimHiGroup      Constant
