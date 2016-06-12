@@ -133,6 +133,8 @@ call s:Color("Regexp",   s:orange,   "NONE", s:t_orange,   "NONE")
 call s:Color("Function", s:gold,     "NONE", s:t_gold,     "NONE")
 call s:Color("Notice",   s:yellow,   "NONE", s:t_yellow,   "NONE")
 
+call s:Color("MatchParen", "NONE", "NONE", "NONE", "NONE", "bold")
+
 hi! link CursorLine   Cursor
 hi! link Identifier   Normal
 hi! link Constant     Normal
