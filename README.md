@@ -1,8 +1,16 @@
 # Happy Hacking
 
-Happy Hacking is a color scheme for Vim that's largely a rework of/inspired by
-[Autumn][autumn]. It comes with various tweaks to the colors, a less messy
-codebase and (better) support for more languages.
+Happy Hacking is my personal color scheme for Vim/Neovim. It was originally
+based on another theme of mine called ["Autumn"][autumn] but has changed quite a
+bit over the years.
+
+Happy Hacking uses a fairly small set of colors instead of throwing rainbows at
+your face. A shade of white is the primary color followed by a few other colors
+used to highlight specific elements such as keywords, numeric values, and
+strings.
+
+Happy Hacking supports both Vim and Neovim and can be used both in a GUI version
+of Vim as well as in a terminal.
 
 ## Screenshots
 
@@ -16,24 +24,47 @@ Ruby:
 
 ## Installation
 
-To install this theme the old school way just drop it in ~/.vim/colors and load
-it as following (e.g. in your .vimrc);
+Manually:
 
+    mkdir -p ~/.vim/colors
+    ln -s $PWD/colors/happy_hacking.vim ~/.vim/colors/happy_hacking.vim
     color happy_hacking
 
-If you're using Pathogen you can add this theme as following:
+Vundle:
 
-    git submodule add git@github.com:YorickPeterse/happy_hacking.vim \
-        .vim/bundle/happy-hacking
+    Plugin 'YorickPeterse/happy_hacking.vim'
 
-Then load it like you'd normally would.
+vim-plug:
+
+    Plug 'YorickPeterse/happy_hacking.vim'
+
+Pathogen:
+
+    cd .vim/bundle/
+    gitclone git@github.com:YorickPeterse/happy_hacking.vim
 
 ## Terminal Support
 
-Happy Hacking can be used in both a GUI and a terminal emulator without the
-need to install separate plugins of any kind. Note that due to the amount of
-colors available to terminals things might look a little bit different compared
-to a Vim GUI.
+This theme can be used both in a GUI version of Vim (e.g. MacVim, gVim, etc) as
+well as the terminal. If you're running Vim in a terminal make sure to enable
+true color support by adding this to your `.vimrc`:
+
+    set termguicolors
+    set t_ut=
+
+If you're running Vim inside Tmux also add the following to your Tmux
+configuration file:
+
+    set -g default-terminal "screen-256color"
+    set-option -ga terminal-overrides ",screen-256color:Tc"
+
+Also make sure the `$TERM` is set to `xterm-256color` and that your terminal
+emulator can actually support said setting and 24bit colors
+
+Neovim users can skip the `t_ut` option, but you do have to set the following
+environment variable:
+
+    export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 ## License
 
