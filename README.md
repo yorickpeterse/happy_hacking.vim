@@ -26,6 +26,10 @@ If you're using Pathogen you can add this theme as following:
     git submodule add git@github.com:YorickPeterse/happy_hacking.vim \
         .vim/bundle/happy-hacking
 
+If you're using Vundle you can add this theme as following (e.g. in your .vimrc);
+
+    Plugin 'YorickPeterse/happy_hacking.vim'
+
 Then load it like you'd normally would.
 
 ## Terminal Support
