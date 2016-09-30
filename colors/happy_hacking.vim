@@ -158,6 +158,10 @@ hi! link MoreMsg      Normal
 " Language specific settings that would otherwise be too generic. These
 " definitions are sorted in alphabetical order.
 
+" Aeon
+hi! link aeonInstanceVariable rubyInstanceVariable
+hi! link aeonSymbol           rubySymbol
+
 " Coffeescript
 hi! link coffeeRegex        Regexp
 hi! link coffeeSpecialIdent Directory
