@@ -319,3 +319,6 @@ hi! link xmlAttrib  Normal
 " Neomake
 hi! link NeomakeWarningSign WarningMsg
 hi! link NeomakeErrorSign Error
+
+" Wild menu completion
+hi! link WildMenu PmenuSel
