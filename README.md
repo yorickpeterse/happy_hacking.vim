@@ -4,6 +4,16 @@ Happy Hacking is a color scheme for Vim that's largely a rework of/inspired by
 [Autumn][autumn]. It comes with various tweaks to the colors, a less messy
 codebase and (better) support for more languages.
 
+## Screenshots
+
+Rust:
+
+![Rust](screenshots/rust.jpg)
+
+Ruby:
+
+![Ruby](screenshots/ruby.jpg)
+
 ## Installation
 
 To install this theme the old school way just drop it in ~/.vim/colors and load
