@@ -8,11 +8,11 @@ codebase and (better) support for more languages.
 
 Rust:
 
-![Rust](screenshots/rust.jpg)
+<img src="screenshots/rust.jpg" width="600">
 
 Ruby:
 
-![Ruby](screenshots/ruby.jpg)
+<img src="screenshots/ruby.jpg" width="600">
 
 ## Installation
 
