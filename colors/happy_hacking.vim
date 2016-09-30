@@ -315,3 +315,7 @@ hi! link yardComment  Comment
 hi! link xmlTagName Normal
 hi! link xmlTag     Normal
 hi! link xmlAttrib  Normal
+
+" Neomake
+hi! link NeomakeWarningSign WarningMsg
+hi! link NeomakeErrorSign Error
