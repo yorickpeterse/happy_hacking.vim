@@ -326,3 +326,12 @@ hi! link NeomakeErrorSign Error
 
 " Wild menu completion
 hi! link WildMenu PmenuSel
+
+" Vim tabline and bufline
+hi! link TabLine     StatusLine
+hi! link TabLineFill StatusLine
+hi! link TabLineSel  StatusLine
+
+hi! link BufTabLineActive StatusLineNC
+
+call s:Color("BufTabLineCurrent", s:white, s:gray2, s:t_white, s:t_gray2, "bold")
