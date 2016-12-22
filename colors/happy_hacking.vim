@@ -332,3 +332,6 @@ hi! link TabLine     StatusLine
 hi! link TabLineFill StatusLine
 
 call s:Color("TabLineSel", s:white, s:gray2, s:t_white, s:t_gray2, "bold")
+
+" Line numbers
+call s:Color("CursorLineNR", s:yellow, "NONE", s:t_yellow, "NONE", "bold")
