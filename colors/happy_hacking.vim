@@ -174,6 +174,12 @@ hi! link cssColor      Number
 hi! link cssTagName    Normal
 hi! link cssImportant  Notice
 
+" CtrlP
+hi! link CtrlPBufferHid Todo
+hi! link CtrlPBufferPath Todo
+
+call s:Color("CtrlPMode1", s:white, s:gray1, s:t_white, s:t_gray1, "bold")
+
 " D
 hi! link dDebug        Notice
 hi! link dOperator     Operator
