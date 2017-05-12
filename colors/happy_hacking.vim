@@ -106,7 +106,7 @@ call s:Color("Pmenu",    s:white,  s:black2, s:t_white,  s:t_black2)
 call s:Color("PmenuSel", s:white,  s:gray2,  s:t_white,  s:t_gray2)
 call s:Color("Cursor",   "NONE",   s:gray2,  "NONE",     s:t_gray2)
 call s:Color("Normal",   s:white,  s:gray1,  s:t_white,  s:t_gray1)
-call s:Color("Search",   s:black1, s:yellow, s:t_black1, s:t_yellow)
+call s:Color("Search",   s:yellow, "NONE",   s:t_yellow, "NONE", "bold")
 call s:Color("Title",    s:white,  "NONE",   s:t_white,  "NONE", "bold")
 
 call s:Color("LineNr",       s:gray3, "NONE",  s:t_gray3, "NONE")
