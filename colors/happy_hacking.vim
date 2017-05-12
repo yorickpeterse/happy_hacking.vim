@@ -154,6 +154,7 @@ hi! link StorageClass Keyword
 hi! link MoreMsg      Normal
 hi! link Character    String
 hi! link Label        Special
+hi! link PreCondit    Macro
 
 " ============================================================================
 " Specific Languages
