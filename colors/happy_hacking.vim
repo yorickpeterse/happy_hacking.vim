@@ -342,3 +342,21 @@ call s:Color("TabLineSel", s:white, s:gray2, s:t_white, s:t_gray2, "bold")
 
 " Line numbers
 call s:Color("CursorLineNR", s:yellow, "NONE", s:t_yellow, "NONE", "bold")
+
+" Neovim terminal colors
+let g:terminal_color_0 = s:black1
+let g:terminal_color_1 = s:red2
+let g:terminal_color_2 = s:green
+let g:terminal_color_3 = s:yellow
+let g:terminal_color_4 = s:blue
+let g:terminal_color_5 = s:pink
+let g:terminal_color_6 = s:turqoise
+let g:terminal_color_7 = s:white
+let g:terminal_color_8 = s:black1
+let g:terminal_color_9 = s:red2
+let g:terminal_color_10 = s:green
+let g:terminal_color_11 = s:yellow
+let g:terminal_color_12 = s:blue
+let g:terminal_color_13 = s:pink
+let g:terminal_color_14 = s:turqoise
+let g:terminal_color_15 = s:white
