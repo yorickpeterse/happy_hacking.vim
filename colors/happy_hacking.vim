@@ -153,6 +153,7 @@ hi! link Boolean      Keyword
 hi! link StorageClass Keyword
 hi! link MoreMsg      Normal
 hi! link Character    String
+hi! link Label        Special
 
 " ============================================================================
 " Specific Languages
