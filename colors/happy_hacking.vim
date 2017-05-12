@@ -130,6 +130,7 @@ call s:Color("String",   s:green,    "NONE", s:t_green,    "NONE")
 call s:Color("Keyword",  s:red2,     "NONE", s:t_red2,     "NONE")
 call s:Color("Number",   s:turqoise, "NONE", s:t_turqoise, "NONE")
 call s:Color("Regexp",   s:orange,   "NONE", s:t_orange,   "NONE")
+call s:Color("Macro",    s:orange,   "NONE", s:t_orange,   "NONE")
 call s:Color("Function", s:gold,     "NONE", s:t_gold,     "NONE")
 call s:Color("Notice",   s:yellow,   "NONE", s:t_yellow,   "NONE")
 
