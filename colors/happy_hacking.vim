@@ -149,7 +149,7 @@ hi! link NonText      LineNr
 hi! link PreProc      Normal
 hi! link Special      Normal
 hi! link Boolean      Keyword
-hi! link StorageClass Normal
+hi! link StorageClass Keyword
 hi! link MoreMsg      Normal
 
 " ============================================================================
