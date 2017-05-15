@@ -44,8 +44,7 @@ let s:turqoise = "#B3EBBF"
 let s:orange   = "#FAA166"
 let s:pink     = "#F77EBD"
 let s:gold     = "#CBC983"
-let s:red1     = "#e6341b"
-let s:red2     = "#ee6854"
+let s:red      = "#F05E48"
 let s:gray1    = "#292929"
 let s:gray2    = "#525252"
 let s:gray3    = "#6c6c6c"
@@ -69,8 +68,7 @@ let s:t_turqoise = "157"
 let s:t_orange   = "179"
 let s:t_pink     = "211"
 let s:t_gold     = "186"
-let s:t_red1     = "166"
-let s:t_red2     = "203"
+let s:t_red      = "203"
 let s:t_gray1    = "235"
 let s:t_gray2    = "59"
 let s:t_gray3    = "59"
@@ -117,7 +115,7 @@ call s:Color("ColorColumn",  "NONE",  s:gray6, "NONE",    s:t_gray6)
 
 call s:Color("Folded",     s:gray4,  "NONE",  s:t_gray4,  "NONE")
 call s:Color("FoldColumn", s:gray3,  s:gray1, s:t_gray3,  s:t_gray1)
-call s:Color("ErrorMsg",   s:red2,   "NONE",  s:t_red2,   "NONE", "bold")
+call s:Color("ErrorMsg",   s:red,   "NONE",  s:t_red,   "NONE", "bold")
 call s:Color("WarningMsg", s:yellow, "NONE",  s:t_yellow, "NONE", "bold")
 call s:Color("Question",   s:white,  "NONE",  s:t_white,  "NONE")
 
@@ -127,7 +125,7 @@ call s:Color("Directory",   s:blue,  "NONE",  s:t_blue,  "NONE")
 call s:Color("Comment",  s:gray4,    "NONE", s:t_gray4,    "NONE")
 call s:Color("Todo",     s:gray5,    "NONE", s:t_gray5,    "NONE")
 call s:Color("String",   s:green,    "NONE", s:t_green,    "NONE")
-call s:Color("Keyword",  s:red2,     "NONE", s:t_red2,     "NONE")
+call s:Color("Keyword",  s:red,     "NONE", s:t_red,     "NONE")
 call s:Color("Number",   s:turqoise, "NONE", s:t_turqoise, "NONE")
 call s:Color("Regexp",   s:orange,   "NONE", s:t_orange,   "NONE")
 call s:Color("Macro",    s:orange,   "NONE", s:t_orange,   "NONE")
@@ -345,7 +343,7 @@ call s:Color("CursorLineNR", s:yellow, "NONE", s:t_yellow, "NONE", "bold")
 
 " Neovim terminal colors
 let g:terminal_color_0 = s:black1
-let g:terminal_color_1 = s:red2
+let g:terminal_color_1 = s:red
 let g:terminal_color_2 = s:green
 let g:terminal_color_3 = s:yellow
 let g:terminal_color_4 = s:blue
@@ -353,7 +351,7 @@ let g:terminal_color_5 = s:pink
 let g:terminal_color_6 = s:turqoise
 let g:terminal_color_7 = s:white
 let g:terminal_color_8 = s:black1
-let g:terminal_color_9 = s:red2
+let g:terminal_color_9 = s:red
 let g:terminal_color_10 = s:green
 let g:terminal_color_11 = s:yellow
 let g:terminal_color_12 = s:blue
