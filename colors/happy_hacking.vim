@@ -214,6 +214,12 @@ hi! link htmlSpecialTagName htmlTag
 hi! link htmlTagName        htmlTag
 hi! link htmlScriptTag      htmlTag
 
+" Inko
+call s:Color("inkoCommentBold", s:gray4, "NONE", s:t_gray4, "NONE", "bold")
+call s:Color("inkoCommentItalic", s:gray4, "NONE", s:t_gray4, "NONE", "italic")
+call s:Color("inkoCommentTitle", s:gray4, "NONE", s:t_gray4, "NONE", "bold")
+call s:Color("inkoCommentInlineUrl", s:turqoise, "NONE", s:t_turqoise, "NONE")
+
 " Javascript
 hi! link javaScriptBraces     Normal
 hi! link javaScriptMember     Normal
