@@ -153,6 +153,8 @@ hi! link Character    String
 hi! link Label        Special
 hi! link PreCondit    Macro
 
+hi! NonText guifg=bg
+
 " ============================================================================
 " Specific Languages
 "
