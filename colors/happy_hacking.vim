@@ -259,6 +259,7 @@ hi! link NERDTreeLink     Number
 hi! link NERDTreeDir      Directory
 hi! link NERDTreeOpenable NERDTreeDir
 hi! link NERDTreeClosable NERDTreeDir
+hi! NERDTreeFile guibg=NONE
 
 " Perl
 hi! link podCommand           Comment
