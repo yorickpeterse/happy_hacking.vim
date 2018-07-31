@@ -366,3 +366,6 @@ let g:terminal_color_12 = s:blue
 let g:terminal_color_13 = s:pink
 let g:terminal_color_14 = s:turqoise
 let g:terminal_color_15 = s:white
+
+" Spell checking
+call s:Color("SpellBad", s:red, "NONE", s:t_red, "NONE", "underline")
