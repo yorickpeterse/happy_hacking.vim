@@ -369,3 +369,6 @@ let g:terminal_color_15 = s:white
 
 " Spell checking
 call s:Color("SpellBad", s:red, "NONE", s:t_red, "NONE", "underline")
+
+" Vimwiki
+hi! link VimWikiCode markdownCode
