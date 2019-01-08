@@ -372,3 +372,9 @@ call s:Color("SpellBad", s:red, "NONE", s:t_red, "NONE", "underline")
 
 " Vimwiki
 hi! link VimWikiCode markdownCode
+
+" ALE
+hi! link ALEWarningSign WarningMsg
+hi! link ALEErrorSign Error
+hi! link ALEWarning WarningMsg
+hi! link ALEError Error
