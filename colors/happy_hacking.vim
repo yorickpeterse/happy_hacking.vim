@@ -132,6 +132,7 @@ call s:Color("Function", s:yellow,   "NONE", s:t_yellow,   "NONE")
 call s:Color("Notice",   s:yellow,   "NONE", s:t_yellow,   "NONE")
 
 call s:Color("MatchParen", "NONE", "NONE", "NONE", "NONE", "bold")
+call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
 
 hi! link CursorLine   Cursor
 hi! link Identifier   Normal
