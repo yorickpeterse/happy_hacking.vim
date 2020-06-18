@@ -109,6 +109,7 @@ call s:Color("Title", s:white, "NONE", s:t_white, "NONE", "bold")
 call s:Color("LineNr", s:gray4, "NONE", s:t_gray4, "NONE")
 call s:Color("StatusLine", s:white, s:gray6, s:t_white, s:t_gray6)
 call s:Color("StatusLineNC", s:gray4, s:gray6, s:t_gray4, s:t_gray6)
+call s:Color("StatusLineMarker", s:yellow, s:gray6, s:t_yellow, s:t_gray6, "bold")
 call s:Color("VertSplit", s:gray3, "NONE", s:t_gray3, "NONE")
 call s:Color("ColorColumn", "NONE", s:gray6, "NONE", s:t_gray6)
 
