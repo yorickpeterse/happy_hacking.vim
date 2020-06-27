@@ -223,6 +223,7 @@ call s:Color("inkoCommentBold", s:gray4, "NONE", s:t_gray4, "NONE", "bold")
 call s:Color("inkoCommentItalic", s:gray4, "NONE", s:t_gray4, "NONE", "italic")
 call s:Color("inkoCommentTitle", s:gray4, "NONE", s:t_gray4, "NONE", "bold")
 call s:Color("inkoCommentInlineUrl", s:turqoise, "NONE", s:t_turqoise, "NONE")
+call s:Color("inkoInstanceVariable", s:blue, "NONE", s:t_blue, "NONE")
 
 " Javascript
 hi! link javaScriptBraces     Normal
